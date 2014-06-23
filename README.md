@@ -13,5 +13,14 @@ A Ruby/Rack stack for bootstrapping a Ratchet mobile app.
     ...
     $ bundle exec rackup
 
+
+## License
+
+MIT
+
+## Copyright
+
+(c)2014 Cristian R. Arroyo
+
 [ratchet]: http://goratchet.com
 [slim]:    http://slim-lang.com/
