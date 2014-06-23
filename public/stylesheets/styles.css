@@ -1,0 +1,8 @@
+@media (max-width: 320px) {
+  ul.table-view li.table-view-cell {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 320px;
+  }
+}

@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title Ratchet BootstrApp
+    meta charset="utf-8"
+    meta http-equiv="content-type" content="text/html; charset=UTF-8"
+    meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui"
+    meta name="apple-mobile-web-app-capable" content="yes"
+    meta name="apple-mobile-web-app-status-bar-style" content="black"
+    link rel="stylesheet" href="/stylesheets/ratchet.css"
+    link rel="stylesheet" href="/stylesheets/styles.css"
+  body
+    header class="bar bar-nav"
+      a href="#" class="icon icon-gear pull-right"
+      h1 class="title" Ratchet BootstrApp
+
+    div class="content"
+      div class="content-padded"
+        p Big things have small beginnings.
+
+      ul class="table-view"
+        li class="table-view-cell"
+          a href="" 
+            | All
+            span class="badge badge-primary" 45
+        li class="table-view-cell"
+          a href=""
+            | Some
+            span class="badge badge-negative" 8
+        li class="table-view-cell"
+          a href=""
+            | None
+            span class="badge" 0
+
+      form id="search" class="content-padded"
+        input type="search" name="name" placeholder="search"
+
+      div class="content-padded"
+        button class="btn btn-block btn-primary" Let's build an app!
+
+      nav class="bar bar-tab"
+        a class="tab-item active" href="#"
+          span class="icon icon-home"
+          span class="tab-label" Home
+        a class="tab-item" href="#"
+          span class="icon icon-star"
+          span class="tab-label" Favorites
+        a class="tab-item" href="#"
+          span class="icon icon-person"
+          span class="tab-label" Account
+
+    script src="/javascripts/lib/ratchet.js"

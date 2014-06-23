@@ -1,0 +1,4 @@
+*.lock
+.bundle
+.vimrc
+vendor
