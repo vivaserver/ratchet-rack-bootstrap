@@ -1,5 +1,7 @@
 # Ratchet 2.0.2 bootstrap
 
+![screenshot](https://raw.github.com/vivaserver/ratchet-bootstrap/master/screenshot.png)
+
 A Ruby/Rack stack for bootstrapping a Ratchet mobile app.
 
 * [Ratchet][ratchet]
