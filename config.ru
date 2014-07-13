@@ -4,7 +4,7 @@ require 'bundler'
 Bundler.require
 
 # ref. https://github.com/adamwiggins/cachemanifest/blob/master/main.rb
-Rack::Mime::MIME_TYPES[".manifest"] = "text/cache-manifest"
+Rack::Mime::MIME_TYPES[".appcache"] = "text/cache-manifest"
 
 use Rack::Static, urls: ['/fonts','/javascripts','/stylesheets'], root: 'public'
 
